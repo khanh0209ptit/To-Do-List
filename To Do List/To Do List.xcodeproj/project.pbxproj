@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040F93B7299241C90058D01E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F93B6299241C90058D01E /* Extension.swift */; };
 		04ECCBB0296860B20056A97B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECCBAF296860B20056A97B /* AppDelegate.swift */; };
 		04ECCBB2296860B20056A97B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECCBB1296860B20056A97B /* SceneDelegate.swift */; };
 		04ECCBB4296860B20056A97B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECCBB3296860B20056A97B /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040F93B6299241C90058D01E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		04ECCBAC296860B20056A97B /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ECCBAF296860B20056A97B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ECCBB1296860B20056A97B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				04ECCBAF296860B20056A97B /* AppDelegate.swift */,
 				04ECCBB1296860B20056A97B /* SceneDelegate.swift */,
 				04ECCBB3296860B20056A97B /* ViewController.swift */,
+				040F93B6299241C90058D01E /* Extension.swift */,
 				04ECCBB5296860B20056A97B /* Main.storyboard */,
 				04ECCBBB296860B30056A97B /* Assets.xcassets */,
 				04ECCBBD296860B30056A97B /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 			files = (
 				04ECCBB4296860B20056A97B /* ViewController.swift in Sources */,
 				04ECCBB0296860B20056A97B /* AppDelegate.swift in Sources */,
+				040F93B7299241C90058D01E /* Extension.swift in Sources */,
 				04ECCBB2296860B20056A97B /* SceneDelegate.swift in Sources */,
 				04ECCBC8296861330056A97B /* ToDoListItem+CoreDataClass.swift in Sources */,
 				04ECCBC9296861330056A97B /* ToDoListItem+CoreDataProperties.swift in Sources */,

@@ -96,7 +96,7 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! UITableViewCell
         let models = models[indexPath.row]
-        cell.textLabel?.text = models.name
+        cell.textLabel?.text = models.name! + (models.createdAt?.convertToMonthYearFormat())!
 //        cell.textLabel?.text = "\(models.name) - Date: \(models.createdAt)"
         return cell
     }
